@@ -5,6 +5,6 @@ ANTLR v4 installation guide: https://www.antlr.org
 
 - To run the DSL: <br />
   -compile all the files using javac *.java  <br /> 
-  -to launch a game: java Eval t1.txt \n <br />
-  -to test the trick validator without playing the game: java TestTrickValidator t1.txt \n <br />
+  -to launch a game: java Eval t1.txt <br />
+  -to test the trick validator without playing the game: java TestTrickValidator t1.txt  <br />
   -Parse tree visualizer: grun Grammar prog t1.txt -gui & <br />
