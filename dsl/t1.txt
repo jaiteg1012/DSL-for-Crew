@@ -1,0 +1,16 @@
+Mission:
+tasks: 10
+players: 3
+tokens: {1 2 x1 xx} nSwap: 2 nSwitch: 3
+ds: on
+taskDist: n
+ruleDist: pd
+WT{any 4,}
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+WT{ any 4 order , {Player1 Player2}}
+WT{ {1 2 3 4} {B1 B2 B3 B4} , any 2}
+DWT{ , {Player1}}
+DWT{ {first last} {B1 B2}, {Player1 Player2 Player3}}
+WC{ any 4 Cards{suit: {B Y G} value: all} , any 1}
+WC{ Cards{suit: {B Y G} value: all} {1 2 3} , any 1}
+DWC{ {B1 B2 B3}, {B1}}
+DWC{ {R1 R2 R3 R4} {1 2 3 4}, any 1}
+NC{ , {Player1}}
+NC{ {first last}, any 2}
+LC{ , {Player1}}
+LC{ {first last}, any 2}
+DCL{ {1 2 3} }
+DCR{}
